@@ -100,18 +100,18 @@ const ContactInfo = () => {
         </div>
 
         {/* Rates and Charity Section */}
-        <div className="glass-card p-6 mb-12 fade-in opacity-0 transition-opacity duration-1000">
+        <div className="glass-card p-8 mb-12 fade-in opacity-0 transition-opacity duration-1000">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-white mb-4">Our Rates & Commitment</h3>
+            <h3 className="text-3xl font-bold text-white mb-6">Our Rates & Commitment</h3>
             <div className="flex items-center justify-center gap-4 mb-6">
-              <DollarSign className="w-8 h-8 text-purple-500 animate-pulse-slow" />
-              <span className="text-3xl font-bold text-white">$15/hour</span>
+              <DollarSign className="w-10 h-10 text-purple-500 animate-pulse-slow" />
+              <span className="text-4xl font-bold text-white">$15/hour</span>
             </div>
-            <div className="flex items-center justify-center gap-2 text-purple-300 mb-4">
-              <Heart className="w-5 h-5 animate-pulse-slow" />
-              <span>33% of proceeds go to St. Jude Children's Research Hospital</span>
+            <div className="flex items-center justify-center gap-3 text-purple-300 mb-6">
+              <Heart className="w-6 h-6 animate-pulse-slow" />
+              <span className="text-lg">33% of proceeds go to St. Jude Children's Research Hospital</span>
             </div>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-lg">
               Start with a free trial session to experience our teaching approach
             </p>
           </div>

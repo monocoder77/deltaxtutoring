@@ -243,23 +243,6 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Rates and Charity Info */}
-          <div className="max-w-2xl mx-auto mb-12">
-            <div className="glass-card p-6 text-center fade-in opacity-0 transition-opacity duration-1000">
-              <div className="flex items-center justify-center gap-4 mb-6">
-                <DollarSign className="w-8 h-8 text-purple-500 animate-pulse-slow" />
-                <span className="text-3xl font-bold text-white">$15/hour</span>
-              </div>
-              <div className="flex items-center justify-center gap-2 text-purple-300 mb-4">
-                <Heart className="w-5 h-5 animate-pulse-slow" />
-                <span>33% of proceeds go to St. Jude Children's Research Hospital</span>
-              </div>
-              <p className="text-gray-300">
-                Start with a free trial session to experience our teaching approach
-              </p>
-            </div>
-          </div>
-
           <div className="max-w-4xl mx-auto glass-card p-4">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSchPp6CkoQu9zNKpPIH30U6JHNS7-uhH7GBLUIogFxavHCCGQ/viewform?embedded=true"
@@ -272,6 +255,24 @@ const Index = () => {
             >
               Loading…
             </iframe>
+          </div>
+
+          <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
+            <Button 
+              onClick={() => scrollToSection('booking')} 
+              size="lg" 
+              className="w-full sm:w-auto bg-white text-purple-600 hover:bg-purple-50 px-8 py-4 text-lg font-semibold hover-glow hover-scale"
+            >
+              Schedule Session
+            </Button>
+            <Button 
+              onClick={() => scrollToSection('contact')} 
+              variant="outline" 
+              size="lg"
+              className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 text-lg font-semibold hover-glow hover-scale"
+            >
+              View Rates
+            </Button>
           </div>
         </div>
       </section>
