@@ -45,9 +45,8 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img src="/logo.svg" alt="DeltaXTutoring Logo" className="w-10 h-10 mr-2 drop-shadow-lg" style={{ background: 'transparent', borderRadius: '8px' }} />
-              <Calculator className="w-8 h-8 text-purple-500 animate-pulse-slow hover-scale" />
-              <span className="text-xl font-bold text-white">DeltaXTutoring</span>
+              <img src="/logo.png" alt="DeltaXTutoring Logo" className="w-10 h-10 mr-2 drop-shadow-lg" style={{ background: 'transparent', borderRadius: '8px' }} />
+              <span className="text-xl font-bold text-white" style={{ letterSpacing: '0.05em' }}>DeltaXTutoring</span>
             </div>
             
             {/* Desktop Navigation */}
