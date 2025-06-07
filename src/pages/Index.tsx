@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Calculator, FlaskConical, Star, BookOpen, Users, ChevronDown, GraduationCap, Mail, Phone, MapPin, Menu, X, Calendar, DollarSign, Heart } from 'lucide-react';
+import { FlaskConical, Star, BookOpen, Users, ChevronDown, GraduationCap, Mail, Phone, MapPin, Menu, X, Calendar, DollarSign, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import ContactInfo from '@/components/ContactInfo';
@@ -105,7 +105,6 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8 fade-in opacity-0 transition-opacity duration-1000">
-              <Calculator className="w-20 h-20 mx-auto mb-6 text-purple-300 animate-float hover-scale" />
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 Master Math, Chemistry & 
                 <span className="text-purple-300 gradient-text"> Test Prep</span>
@@ -119,21 +118,18 @@ const Index = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-12">
               <Card className="glass-card hover-lift">
                 <CardContent className="p-4 sm:p-6 text-center">
-                  <Calculator className="w-8 h-8 mx-auto mb-3 text-purple-300 hover-scale animate-float" />
                   <h3 className="font-semibold mb-2 text-white">Mathematics</h3>
                   <p className="text-purple-100 text-sm">Algebra, Calculus, and advanced math concepts</p>
                 </CardContent>
               </Card>
               <Card className="glass-card hover-lift">
                 <CardContent className="p-4 sm:p-6 text-center">
-                  <FlaskConical className="w-8 h-8 mx-auto mb-3 text-purple-300 hover-scale animate-float" />
                   <h3 className="font-semibold mb-2 text-white">Chemistry</h3>
                   <p className="text-purple-100 text-sm">General and AP Chemistry mastery</p>
                 </CardContent>
               </Card>
               <Card className="glass-card hover-lift">
                 <CardContent className="p-4 sm:p-6 text-center">
-                  <GraduationCap className="w-8 h-8 mx-auto mb-3 text-purple-300 hover-scale animate-float" />
                   <h3 className="font-semibold mb-2 text-white">Test Prep</h3>
                   <p className="text-purple-100 text-sm">SAT and ACT math preparation</p>
                 </CardContent>
@@ -285,7 +281,6 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Calculator className="w-6 h-6 text-purple-500 hover-scale animate-pulse-slow" />
                 <span className="text-lg font-bold">DeltaXTutoring</span>
               </div>
               <p className="text-gray-400">
