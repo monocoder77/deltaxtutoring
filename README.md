@@ -16,13 +16,12 @@ DeltaXTutoring provides personalized tutoring services with a focus on:
 - Flexible scheduling
 - Online and in-person sessions
 - Free trial session available
-- 33% of proceeds go to St. Jude Children's Research Hospital
 
 ## Contact
 
 - Email: deltaxtutoring@gmail.com
 - Phone: (254) 271-7880
-- Rate: $15/hour
+- Rate: $20/hour
 
 ## Development
 
